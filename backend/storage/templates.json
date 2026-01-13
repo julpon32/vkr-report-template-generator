@@ -1,0 +1,67 @@
+[
+  {
+    "id": "t_1768343387841",
+    "template_id": "00c6b3c2-b937-40d7-8574-d63300ed638f",
+    "created_at": 1768343387,
+    "rules": {
+      "font_name": "Times New Roman",
+      "font_size_pt": 12,
+      "line_spacing": 1.5,
+      "margin_left_mm": 30,
+      "margin_right_mm": 30,
+      "margin_top_mm": 30,
+      "margin_bottom_mm": 30,
+      "page_numbering": true,
+      "page_number_font_size_pt": 12,
+      "page_number_position": "bottom_center",
+      "raw_matches": {
+        "font_name": "Основной текст работы оформляется шрифтом Times New Roman",
+        "font_size_pt": "Шрифт номера страницы — Times New Roman, размер 12 пунктов",
+        "line_spacing": "Межстрочный интервал — 1,5",
+        "paragraph_indent_cm": "Абзацный отступ составляет 1,25 см",
+        "margin_left_mm": "левое поле — 30 мм, правое поле — 15 мм, верхнее поле — 20 мм, нижнее поле — 20 мм",
+        "margin_right_mm": "левое поле — 30 мм, правое поле — 15 мм, верхнее поле — 20 мм, нижнее поле — 20 мм",
+        "margin_top_mm": "левое поле — 30 мм, правое поле — 15 мм, верхнее поле — 20 мм, нижнее поле — 20 мм",
+        "margin_bottom_mm": "левое поле — 30 мм, правое поле — 15 мм, верхнее поле — 20 мм, нижнее поле — 20 мм",
+        "page_numbering": "Нумерация страниц сквозная по всему тексту работы",
+        "page_number_position": "Номер страницы размещается внизу по центру страницы",
+        "page_number_font_size_pt": "Шрифт номера страницы — Times New Roman, размер 12 пунктов"
+      },
+      "source_summary": "Извлечение через внутреннюю модель требований (rule-engine)",
+      "requirements_model": {
+        "document": {
+          "font_name": "Times New Roman",
+          "font_size_pt": 12,
+          "line_spacing": 1.5,
+          "paragraph_indent_cm": 1.25
+        },
+        "margins": {
+          "left_mm": 30,
+          "right_mm": 30,
+          "top_mm": 30,
+          "bottom_mm": 30
+        },
+        "page_numbering": {
+          "enabled": true,
+          "position": "bottom_center",
+          "font_name": "Times New Roman",
+          "font_size_pt": 12,
+          "first_page_numbered": false
+        },
+        "evidence": {
+          "font_name": "Основной текст работы оформляется шрифтом Times New Roman",
+          "font_size_pt": "Шрифт номера страницы — Times New Roman, размер 12 пунктов",
+          "line_spacing": "Межстрочный интервал — 1,5",
+          "paragraph_indent_cm": "Абзацный отступ составляет 1,25 см",
+          "margin_left_mm": "левое поле — 30 мм, правое поле — 15 мм, верхнее поле — 20 мм, нижнее поле — 20 мм",
+          "margin_right_mm": "левое поле — 30 мм, правое поле — 15 мм, верхнее поле — 20 мм, нижнее поле — 20 мм",
+          "margin_top_mm": "левое поле — 30 мм, правое поле — 15 мм, верхнее поле — 20 мм, нижнее поле — 20 мм",
+          "margin_bottom_mm": "левое поле — 30 мм, правое поле — 15 мм, верхнее поле — 20 мм, нижнее поле — 20 мм",
+          "page_numbering": "Нумерация страниц сквозная по всему тексту работы",
+          "page_number_position": "Номер страницы размещается внизу по центру страницы",
+          "page_number_font_size_pt": "Шрифт номера страницы — Times New Roman, размер 12 пунктов"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "id": "p_1768339315047",
+    "name": "Юля проверка",
+    "rules": {
+      "font_name": "Times New Roman",
+      "font_size_pt": 14,
+      "line_spacing": 1.5,
+      "margin_left_mm": 30,
+      "margin_right_mm": 15,
+      "margin_top_mm": 20,
+      "margin_bottom_mm": 20,
+      "page_numbering": true,
+      "page_number_font_size_pt": 12,
+      "page_number_position": "bottom_center",
+      "raw_matches": {
+        "font_name": "Times New Roman",
+        "page_numbering": "найдено упоминание нумерации страниц",
+        "page_number_position": "внизу по центру"
+      },
+      "source_summary": "Извлечено регулярными выражениями (MVP)"
+    },
+    "created_at": 1768339315
+  }
+]
