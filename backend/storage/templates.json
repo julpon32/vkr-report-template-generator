@@ -1,5 +1,258 @@
 [
   {
+    "id": "t_1768524679287",
+    "template_id": "5d631cdb-fc83-4e2c-bcd0-9fd616d6606a",
+    "created_at": 1768524679,
+    "rules": {
+      "font_name": "Times New Roman",
+      "font_size_pt": 14,
+      "line_spacing": 1.15,
+      "margin_left_mm": 30,
+      "margin_right_mm": 15,
+      "margin_top_mm": 20,
+      "margin_bottom_mm": 20,
+      "page_numbering": true,
+      "page_number_font_size_pt": 12,
+      "page_number_position": "bottom_center",
+      "raw_matches": {
+        "font_name": "Для основного текста выбрала шрифт Times New Roman, а размер",
+        "line_spacing": "Для основного текста выбрала шрифт Times New Roman, а размер межстрочный интервал сделала 1,15, чтобы текст не выглядел слишком",
+        "page_number_position": "Нумерацию я включила сквозную и поместила номер внизу по центру",
+        "_ml_preview": [
+          {
+            "fragment": "Текст с требованиями (пример 1)",
+            "label": "other",
+            "score": 0.5212559965735365
+          },
+          {
+            "fragment": "В процессе подготовки отчета в Word я ориентировалась на внутренние рекомендации кафедры и",
+            "label": "other",
+            "score": 0.9407683693369329
+          },
+          {
+            "fragment": "аккуратно выставила оформление",
+            "label": "other",
+            "score": 0.8669996766950119
+          },
+          {
+            "fragment": "Для основного текста выбрала шрифт Times New Roman, а размер",
+            "label": "req",
+            "score": 0.9426238824883404
+          },
+          {
+            "fragment": "поставила 13 пт",
+            "label": "req",
+            "score": 0.8063857950565424
+          },
+          {
+            "fragment": "межстрочный интервал сделала 1,15, чтобы текст не выглядел слишком",
+            "label": "req",
+            "score": 0.8489840313521309
+          },
+          {
+            "fragment": "разреженным.",
+            "label": "other",
+            "score": 0.5397554070689172
+          },
+          {
+            "fragment": "Когда проверяла документ перед печатью, отдельно прошлась по разметке страницы",
+            "label": "req",
+            "score": 0.8400363675703781
+          },
+          {
+            "fragment": "левое поле 25",
+            "label": "req",
+            "score": 0.9401874403601762
+          },
+          {
+            "fragment": "мм, правое 15 мм, верхнее 20 мм и нижнее 20 мм",
+            "label": "req",
+            "score": 0.7912472696064042
+          },
+          {
+            "fragment": "так лист удобно подшивать.",
+            "label": "other",
+            "score": 0.630086851730086
+          },
+          {
+            "fragment": "Нумерацию я включила сквозную и поместила номер внизу по центру",
+            "label": "req",
+            "score": 0.8183776110146822
+          },
+          {
+            "fragment": "для номера страницы указала",
+            "label": "req",
+            "score": 0.8245161480596545
+          },
+          {
+            "fragment": "Times New Roman 11 пт, чтобы он не отвлекал от содержания.",
+            "label": "req",
+            "score": 0.9753663261890037
+          }
+        ],
+        "_ml_note": "ML: TF-IDF (word+char ngrams) + LinearSVC (calibrated); используется для выделения фрагментов-требований.",
+        "_ml_filtered_fragments_count": 6
+      },
+      "source_summary": "Извлечение через rule-engine + ML-фильтрация фрагментов (TF-IDF + LinearSVC calibrated)",
+      "requirements_model": {
+        "document": {
+          "font_name": "Times New Roman",
+          "font_size_pt": 14,
+          "line_spacing": 1.15,
+          "paragraph_indent_cm": 1.25
+        },
+        "margins": {
+          "left_mm": 30,
+          "right_mm": 15,
+          "top_mm": 20,
+          "bottom_mm": 20
+        },
+        "page_numbering": {
+          "enabled": true,
+          "position": "bottom_center",
+          "font_name": "Times New Roman",
+          "font_size_pt": 12,
+          "first_page_numbered": false
+        },
+        "evidence": {
+          "font_name": "Для основного текста выбрала шрифт Times New Roman, а размер",
+          "line_spacing": "Для основного текста выбрала шрифт Times New Roman, а размер межстрочный интервал сделала 1,15, чтобы текст не выглядел слишком",
+          "page_number_position": "Нумерацию я включила сквозную и поместила номер внизу по центру"
+        }
+      }
+    }
+  },
+  {
+    "id": "t_1768518202497",
+    "template_id": "2daf8e4f-7fa3-4f22-a1e7-edac4e115a0a",
+    "created_at": 1768518202,
+    "rules": {
+      "font_name": "Calibri",
+      "font_size_pt": 12,
+      "line_spacing": 1.5,
+      "margin_left_mm": 30,
+      "margin_right_mm": 15,
+      "margin_top_mm": 20,
+      "margin_bottom_mm": 20,
+      "page_numbering": true,
+      "page_number_font_size_pt": 12,
+      "page_number_position": "bottom_center",
+      "raw_matches": {
+        "font_name": "Calibri, кегль 12",
+        "font_size_pt": "Calibri, кегль 12",
+        "paragraph_indent_cm": "Для абзацев выставила привычный абзацный отступ первой строки 1,25 см, а интервалы до и после",
+        "page_numbering": "Нумерация страниц начинается со второй страницы",
+        "_ml_preview": [
+          {
+            "fragment": "Текст с требованиями (пример 2)",
+            "label": "other",
+            "score": 0.5212559965735365
+          },
+          {
+            "fragment": "После консультации с руководителем я перепроверила стиль всего текста",
+            "label": "req",
+            "score": 0.6380090124910202
+          },
+          {
+            "fragment": "основная часть набрана",
+            "label": "req",
+            "score": 0.5262804484314924
+          },
+          {
+            "fragment": "Calibri, кегль 12",
+            "label": "req",
+            "score": 0.8025276198231572
+          },
+          {
+            "fragment": "межстрочный интервал",
+            "label": "req",
+            "score": 0.7772846766814404
+          },
+          {
+            "fragment": "1,5 (полуторный), выравнивание по ширине.",
+            "label": "req",
+            "score": 0.9219883630163976
+          },
+          {
+            "fragment": "Для абзацев выставила привычный абзацный отступ первой строки 1,25 см, а интервалы до и после",
+            "label": "req",
+            "score": 0.9512292277608082
+          },
+          {
+            "fragment": "абзаца оставила нулевые.",
+            "label": "req",
+            "score": 0.6803494508046329
+          },
+          {
+            "fragment": "Поля документа настроила так",
+            "label": "req",
+            "score": 0.7778382075704221
+          },
+          {
+            "fragment": "левое 30 мм, правое 10 мм, верхнее и нижнее",
+            "label": "req",
+            "score": 0.7327614593200003
+          },
+          {
+            "fragment": "по 20 мм.",
+            "label": "req",
+            "score": 0.9075053916975898
+          },
+          {
+            "fragment": "Нумерация страниц начинается со второй страницы",
+            "label": "req",
+            "score": 0.8204151586405213
+          },
+          {
+            "fragment": "номер располагается в нижнем колонтитуле",
+            "label": "req",
+            "score": 0.8892588616159219
+          },
+          {
+            "fragment": "справа, а размер шрифта номера страницы",
+            "label": "req",
+            "score": 0.9803067511636713
+          },
+          {
+            "fragment": "Calibri 10.",
+            "label": "other",
+            "score": 0.7701124914092189
+          }
+        ],
+        "_ml_note": "ML: TF-IDF (word+char ngrams) + LinearSVC (calibrated); используется для выделения фрагментов-требований.",
+        "_ml_filtered_fragments_count": 10
+      },
+      "source_summary": "Извлечение через rule-engine + ML-фильтрация фрагментов (TF-IDF + LinearSVC calibrated)",
+      "requirements_model": {
+        "document": {
+          "font_name": "Calibri",
+          "font_size_pt": 12,
+          "line_spacing": 1.5,
+          "paragraph_indent_cm": 1.25
+        },
+        "margins": {
+          "left_mm": 30,
+          "right_mm": 15,
+          "top_mm": 20,
+          "bottom_mm": 20
+        },
+        "page_numbering": {
+          "enabled": true,
+          "position": "bottom_center",
+          "font_name": "Times New Roman",
+          "font_size_pt": 12,
+          "first_page_numbered": false
+        },
+        "evidence": {
+          "font_name": "Calibri, кегль 12",
+          "font_size_pt": "Calibri, кегль 12",
+          "paragraph_indent_cm": "Для абзацев выставила привычный абзацный отступ первой строки 1,25 см, а интервалы до и после",
+          "page_numbering": "Нумерация страниц начинается со второй страницы"
+        }
+      }
+    }
+  },
+  {
     "id": "t_1768343387841",
     "template_id": "00c6b3c2-b937-40d7-8574-d63300ed638f",
     "created_at": 1768343387,
